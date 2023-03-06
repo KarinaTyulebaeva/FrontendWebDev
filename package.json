@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+  ,
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config rollup.config.js"
+  },
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.1"
+  }
+}
